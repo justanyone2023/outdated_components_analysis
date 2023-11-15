@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-1298",
+  "summary": "Malicious code in smart-commons (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (3d5cef67a87cd4a497f6879379a3829535212f7d703197ce6d3130dd03fd2da6)\nThe OpenSSF Package Analysis project identified 'smart-commons' @ 19.6.1 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-04-30T22:44:09Z",
+  "published": "2023-04-30T22:44:09Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-04-30T22:44:09.194360713Z",
+        "import_time": "2023-08-10T06:15:24.122729675Z",
+        "versions": [
+          "19.6.1"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "3d5cef67a87cd4a497f6879379a3829535212f7d703197ce6d3130dd03fd2da6"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "smart-commons",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/smart-commons"
+      },
+      "versions": [
+        "19.6.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/smart-commons/MAL-2023-1298.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

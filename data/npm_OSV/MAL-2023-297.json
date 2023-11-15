@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-297",
+  "summary": "Malicious code in dwolla-algolia-search (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (93bb17b6d0a8a1b69ad18cd8ebd649cbb5d7e60f664ab2dfa212cb9f686ac801)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-gg56-5h37-73v2"
+  ],
+  "modified": "2023-02-02T20:05:23Z",
+  "published": "2023-02-02T20:05:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-02-02T20:05:23Z",
+        "import_time": "2023-07-30T21:58:10.720989805Z",
+        "id": "GHSA-gg56-5h37-73v2",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "93bb17b6d0a8a1b69ad18cd8ebd649cbb5d7e60f664ab2dfa212cb9f686ac801"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-gg56-5h37-73v2"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "dwolla-algolia-search",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/dwolla-algolia-search"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/dwolla-algolia-search/MAL-2023-297.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

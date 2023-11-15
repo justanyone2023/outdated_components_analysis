@@ -1,0 +1,57 @@
+{
+  "id": "GHSA-52vj-mr2j-f8jh",
+  "summary": "Server-Side Template Injection in formio",
+  "details": "A Server-Side Template Injection (SSTI) was discovered in Form.io 2.0.0. This leads to Remote Code Execution during deletion of the default Email template URL.",
+  "aliases": [
+    "CVE-2020-28246"
+  ],
+  "modified": "2022-06-03T22:20:22Z",
+  "published": "2022-06-03T00:00:58Z",
+  "database_specific": {
+    "nvd_published_at": "2022-06-02T14:15:00Z",
+    "github_reviewed_at": "2022-06-03T22:20:22Z",
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "cwe_ids": []
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-28246"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/formio/enterprise-release/blob/master/API-Server-Change-Log.md"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/formio/formio"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "formio",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/formio"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.0.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/06/GHSA-52vj-mr2j-f8jh/GHSA-52vj-mr2j-f8jh.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

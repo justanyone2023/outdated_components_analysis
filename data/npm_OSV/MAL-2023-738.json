@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-738",
+  "summary": "Malicious code in reactsix (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (ec975631b56273be6043ff2cb0bf177e4ec19afae757e0dbf9109ca9120cf4c9)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-pmm4-9w9m-2gcm"
+  ],
+  "modified": "2023-06-27T23:07:54Z",
+  "published": "2023-06-26T00:39:49Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-06-27T23:07:54Z",
+        "import_time": "2023-07-30T21:58:20.720832517Z",
+        "id": "GHSA-pmm4-9w9m-2gcm",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "ec975631b56273be6043ff2cb0bf177e4ec19afae757e0dbf9109ca9120cf4c9"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-pmm4-9w9m-2gcm"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "reactsix",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/reactsix"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/reactsix/MAL-2023-738.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

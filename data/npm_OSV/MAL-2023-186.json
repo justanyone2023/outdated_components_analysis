@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-186",
+  "summary": "Malicious code in cms-businesslogic (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (e0db779bc3d95749d4bb288d33d42d6febc864b8ab1ce8b51b5ddba5cfac9298)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-v947-rv88-v7hm"
+  ],
+  "modified": "2023-03-15T02:00:32Z",
+  "published": "2023-03-15T02:00:32Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-03-15T02:00:32Z",
+        "import_time": "2023-07-30T21:58:26.888386766Z",
+        "id": "GHSA-v947-rv88-v7hm",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "e0db779bc3d95749d4bb288d33d42d6febc864b8ab1ce8b51b5ddba5cfac9298"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-v947-rv88-v7hm"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "cms-businesslogic",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/cms-businesslogic"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/cms-businesslogic/MAL-2023-186.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-1149",
+  "summary": "Malicious code in cyclotron-svc (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (4f8b0a1aa798da64bb0b8fd50b7a301eb9c0bec31e520948a8b30275bcbe318b)\nThe OpenSSF Package Analysis project identified 'cyclotron-svc' @ 5.0.0 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-05-09T04:17:06Z",
+  "published": "2023-05-09T04:17:06Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-05-09T04:17:06.883459656Z",
+        "import_time": "2023-08-10T06:15:44.384039577Z",
+        "versions": [
+          "5.0.0"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "4f8b0a1aa798da64bb0b8fd50b7a301eb9c0bec31e520948a8b30275bcbe318b"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "cyclotron-svc",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/cyclotron-svc"
+      },
+      "versions": [
+        "5.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/cyclotron-svc/MAL-2023-1149.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-7941",
+  "summary": "Malicious code in your-dpd-rest-api-client (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (57f29438d66f642d44c66209d9219a5bce9c31f2cdb3437e711193f13af28113)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-74q9-v63v-8vv3"
+  ],
+  "modified": "2023-08-28T02:30:37Z",
+  "published": "2023-08-28T02:30:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-08-28T02:30:37Z",
+        "import_time": "2023-08-29T00:23:51.62744683Z",
+        "id": "GHSA-74q9-v63v-8vv3",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "57f29438d66f642d44c66209d9219a5bce9c31f2cdb3437e711193f13af28113"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-74q9-v63v-8vv3"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "your-dpd-rest-api-client",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/your-dpd-rest-api-client"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/your-dpd-rest-api-client/MAL-2023-7941.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

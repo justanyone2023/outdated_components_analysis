@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-1438",
+  "summary": "Malicious code in exp-core-style (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (31032b8597c788373193761b90d13ba7f409a33d3a75f62a7ee5ba4e4ff9804e)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-gpfv-8v2x-vcvm"
+  ],
+  "modified": "2023-08-10T06:17:06Z",
+  "published": "2023-08-10T06:17:06Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-08-10T06:17:06Z",
+        "import_time": "2023-08-11T00:22:32.845836967Z",
+        "id": "GHSA-gpfv-8v2x-vcvm",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "31032b8597c788373193761b90d13ba7f409a33d3a75f62a7ee5ba4e4ff9804e"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-gpfv-8v2x-vcvm"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "exp-core-style",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/exp-core-style"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/exp-core-style/MAL-2023-1438.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

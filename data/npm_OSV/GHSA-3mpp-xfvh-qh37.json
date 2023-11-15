@@ -1,0 +1,47 @@
+{
+  "id": "GHSA-3mpp-xfvh-qh37",
+  "summary": "node-ipc behavior change",
+  "details": "node-ipc version 11.0.0 and newer include a message from the maintainer that is written to the user\u2019s desktop. Please review the version changes before proceeding.",
+  "modified": "2022-03-16T23:54:35Z",
+  "published": "2022-03-16T23:54:35Z",
+  "database_specific": {
+    "nvd_published_at": null,
+    "github_reviewed_at": "2022-03-16T23:54:35Z",
+    "severity": "LOW",
+    "github_reviewed": true,
+    "cwe_ids": []
+  },
+  "references": [
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/RIAEvangelist/node-ipc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RIAEvangelist/node-ipc/releases/tag/v11.0.0"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "node-ipc",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/node-ipc"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "11.0.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/03/GHSA-3mpp-xfvh-qh37/GHSA-3mpp-xfvh-qh37.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

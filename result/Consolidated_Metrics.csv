@@ -1,0 +1,36 @@
+Metric,Value,Model
+Accuracy,0.5972657362574765,AdaBoost Classifier
+Precision,0.5997974653946818,AdaBoost Classifier
+Recall,0.5972657362574765,AdaBoost Classifier
+F1 Score,0.578672456261798,AdaBoost Classifier
+ROC-AUC,0.6255861678093271,AdaBoost Classifier
+Accuracy,0.6086585018513244,Decision Tree Classifier
+Precision,0.6071712207750565,Decision Tree Classifier
+Recall,0.6086585018513244,Decision Tree Classifier
+F1 Score,0.607051569146598,Decision Tree Classifier
+ROC-AUC,0.638697738941239,Decision Tree Classifier
+Accuracy,0.6491028197094845,Gradient Boosting Classifier
+Precision,0.6486306704195047,Gradient Boosting Classifier
+Recall,0.6491028197094845,Gradient Boosting Classifier
+F1 Score,0.6454051858849872,Gradient Boosting Classifier
+ROC-AUC,0.7129762063154159,Gradient Boosting Classifier
+Accuracy,0.632583309598405,K-Nearest Neighbors
+Precision,0.6324960398118654,K-Nearest Neighbors
+Recall,0.632583309598405,K-Nearest Neighbors
+F1 Score,0.6325378286033664,K-Nearest Neighbors
+ROC-AUC,0.6306350374103873,K-Nearest Neighbors
+Accuracy,0.5434349188265452,Logistic Regression
+Precision,0.5462435026121213,Logistic Regression
+Recall,0.5434349188265452,Logistic Regression
+F1 Score,0.4439417778907965,Logistic Regression
+ROC-AUC,0.5524775902910393,Logistic Regression
+Accuracy,0.7399601253204215,Random Forest Classifier
+Precision,0.7403404195608422,Random Forest Classifier
+Recall,0.7399601253204215,Random Forest Classifier
+F1 Score,0.7385308601826415,Random Forest Classifier
+ROC-AUC,0.8298415993592753,Random Forest Classifier
+Accuracy,0.6169182569068642,Support Vector Machine
+Precision,0.616296997361718,Support Vector Machine
+Recall,0.6169182569068642,Support Vector Machine
+F1 Score,0.6098228456672592,Support Vector Machine
+ROC-AUC,Not Available,Support Vector Machine

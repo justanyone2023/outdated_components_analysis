@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-1143",
+  "summary": "Malicious code in compositionupdate (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (609e73b696d2a84c8c2169afde78694231815b46be300710ddf913fed7c63d1b)\nThe OpenSSF Package Analysis project identified 'compositionupdate' @ 88.8.8 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-05-01T04:52:49Z",
+  "published": "2023-05-01T04:52:49Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-05-01T04:52:49.979034002Z",
+        "import_time": "2023-08-10T06:15:27.921844523Z",
+        "versions": [
+          "88.8.8"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "609e73b696d2a84c8c2169afde78694231815b46be300710ddf913fed7c63d1b"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "compositionupdate",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/compositionupdate"
+      },
+      "versions": [
+        "88.8.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/compositionupdate/MAL-2023-1143.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}
