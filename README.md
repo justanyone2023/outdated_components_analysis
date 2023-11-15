@@ -64,4 +64,4 @@ For any questions or requests, please open an issue in this repository, or conta
 ## Citation
 If you use the code or data from this repository in your research, please cite our paper:
 
-(2023). Examining the Impact of Outdated Third-Party Components on Software Supply Chains: An In-depth Study in the NPM Ecosystem. In: Conference/ Journal. DOI: [DOI]
+(2023). Uncover the Impact of Outdated Third-Party Components on Software Supply Chains: An In-depth Study in the NPM Ecosystem. In: Conference/ Journal. DOI: [DOI]
