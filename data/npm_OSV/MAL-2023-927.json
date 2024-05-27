@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-927",
+  "summary": "Malicious code in usamaturk (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (87d02f6bdc2aef87b1fe34c7c3d0e97fe812b9e1be74c7c06da4c0a05e276a45)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-qjp2-jf2c-xrj2"
+  ],
+  "modified": "2023-02-09T00:00:45Z",
+  "published": "2023-02-09T00:00:44Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-02-09T00:00:45Z",
+        "import_time": "2023-07-30T21:58:22.925359498Z",
+        "id": "GHSA-qjp2-jf2c-xrj2",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "87d02f6bdc2aef87b1fe34c7c3d0e97fe812b9e1be74c7c06da4c0a05e276a45"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-qjp2-jf2c-xrj2"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "usamaturk",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/usamaturk"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/usamaturk/MAL-2023-927.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

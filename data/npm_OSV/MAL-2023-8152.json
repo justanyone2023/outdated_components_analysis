@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-8152",
+  "summary": "Malicious code in test-archive (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (e1f4a4a3a36da800a3c6e33fb47a4a42edf9ec19c39db7d5ea4e52a8fb378d12)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-gj7g-4cff-5mrv"
+  ],
+  "modified": "2023-09-18T00:56:39Z",
+  "published": "2023-09-18T00:56:39Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-09-18T00:56:39Z",
+        "import_time": "2023-09-19T00:23:51.130506481Z",
+        "id": "GHSA-gj7g-4cff-5mrv",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "e1f4a4a3a36da800a3c6e33fb47a4a42edf9ec19c39db7d5ea4e52a8fb378d12"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-gj7g-4cff-5mrv"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "test-archive",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/test-archive"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/test-archive/MAL-2023-8152.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

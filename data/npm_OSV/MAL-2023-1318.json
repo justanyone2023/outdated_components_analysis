@@ -1,0 +1,56 @@
+{
+  "id": "MAL-2023-1318",
+  "summary": "Malicious code in testforconfusion (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (0463d945d1cd3398ce2594034fd52775ac94fe411f1cc645f88f757522abfc1b)\nThe OpenSSF Package Analysis project identified 'testforconfusion' @ 1.1.0 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-08-10T06:17:50Z",
+  "published": "2023-04-29T03:50:56Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-04-29T03:50:56.705238565Z",
+        "import_time": "2023-08-10T06:15:15.745081648Z",
+        "versions": [
+          "1.1.0"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "0463d945d1cd3398ce2594034fd52775ac94fe411f1cc645f88f757522abfc1b"
+      },
+      {
+        "modified_time": "2023-04-29T03:51:48.960889207Z",
+        "import_time": "2023-08-10T06:15:15.990989619Z",
+        "versions": [
+          "1.1.1"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "563d87949fafdda8afd41796bb189a77596987aac326518383a2a692239e2cad"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "testforconfusion",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/testforconfusion"
+      },
+      "versions": [
+        "1.1.0",
+        "1.1.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/testforconfusion/MAL-2023-1318.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

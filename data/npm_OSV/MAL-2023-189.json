@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-189",
+  "summary": "Malicious code in cms-models (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (4e7660bdda7ac53c4bd35a3b5698ca80b7d2f5bf8bd47a5e7e6163aead683350)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-3pp4-h432-gvv7"
+  ],
+  "modified": "2023-03-15T02:00:32Z",
+  "published": "2023-03-15T02:00:32Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-03-15T02:00:32Z",
+        "import_time": "2023-07-30T21:57:50.344782059Z",
+        "id": "GHSA-3pp4-h432-gvv7",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "4e7660bdda7ac53c4bd35a3b5698ca80b7d2f5bf8bd47a5e7e6163aead683350"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-3pp4-h432-gvv7"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "cms-models",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/cms-models"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/cms-models/MAL-2023-189.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

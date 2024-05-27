@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-1460",
+  "summary": "Malicious code in pingan-vue-floating (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (b7532771f432447fc28d8b98beb1e06fa6b55267667b8f2bce311925eeb12b85)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-6pr4-hqcg-fvpw"
+  ],
+  "modified": "2023-08-14T03:21:53Z",
+  "published": "2023-08-14T03:21:53Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-08-14T03:21:53Z",
+        "import_time": "2023-08-15T00:22:29.110590428Z",
+        "id": "GHSA-6pr4-hqcg-fvpw",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "b7532771f432447fc28d8b98beb1e06fa6b55267667b8f2bce311925eeb12b85"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-6pr4-hqcg-fvpw"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pingan-vue-floating",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/pingan-vue-floating"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/pingan-vue-floating/MAL-2023-1460.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

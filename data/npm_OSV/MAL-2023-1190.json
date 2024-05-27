@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-1190",
+  "summary": "Malicious code in gql2ts-from-schema (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (7a1acee750c796d45e602f027ea638a05590a78bb142aca903bfb2bb169466a6)\nThe OpenSSF Package Analysis project identified 'gql2ts-from-schema' @ 2.1.1 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-05-11T06:04:38Z",
+  "published": "2023-05-11T06:04:38Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-05-11T06:04:38.121713302Z",
+        "import_time": "2023-08-10T06:15:49.808831434Z",
+        "versions": [
+          "2.1.1"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "7a1acee750c796d45e602f027ea638a05590a78bb142aca903bfb2bb169466a6"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "gql2ts-from-schema",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/gql2ts-from-schema"
+      },
+      "versions": [
+        "2.1.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/gql2ts-from-schema/MAL-2023-1190.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-1155",
+  "summary": "Malicious code in dist-web (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (ff355bd5f2422ce630aeb0652869d4bdaa8f3f18cf576fc60a76588f3acf36b4)\nThe OpenSSF Package Analysis project identified 'dist-web' @ 99.1.1 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-04-29T10:31:12Z",
+  "published": "2023-04-29T10:31:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-04-29T10:31:12.763365523Z",
+        "import_time": "2023-08-10T06:15:20.262996063Z",
+        "versions": [
+          "99.1.1"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "ff355bd5f2422ce630aeb0652869d4bdaa8f3f18cf576fc60a76588f3acf36b4"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "dist-web",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/dist-web"
+      },
+      "versions": [
+        "99.1.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/dist-web/MAL-2023-1155.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

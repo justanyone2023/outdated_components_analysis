@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-1437",
+  "summary": "Malicious code in eslint-plugin-ironfish (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (0cf9a139f54d36697640638f053ee13f282d5d4b286225e4e186aa8ed2bee25a)\nThe OpenSSF Package Analysis project identified 'eslint-plugin-ironfish' @ 99.99.9 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-08-10T18:13:02Z",
+  "published": "2023-08-10T18:13:02Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-08-10T18:13:02.199241318Z",
+        "import_time": "2023-08-10T18:34:12.238463308Z",
+        "versions": [
+          "99.99.9"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "0cf9a139f54d36697640638f053ee13f282d5d4b286225e4e186aa8ed2bee25a"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "eslint-plugin-ironfish",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/eslint-plugin-ironfish"
+      },
+      "versions": [
+        "99.99.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/eslint-plugin-ironfish/MAL-2023-1437.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

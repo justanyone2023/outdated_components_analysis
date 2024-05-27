@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-8209",
+  "summary": "Malicious code in @zettle-bo/settings (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (fba492d667a05fc7319b7f2a8b78d3c30055af809eb17047766ddd8e1b747898)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-jhqm-x4p5-jf46"
+  ],
+  "modified": "2023-09-21T01:37:51Z",
+  "published": "2023-09-21T01:37:50Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-09-21T01:37:51Z",
+        "import_time": "2023-09-22T00:23:39.585064168Z",
+        "id": "GHSA-jhqm-x4p5-jf46",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "fba492d667a05fc7319b7f2a8b78d3c30055af809eb17047766ddd8e1b747898"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-jhqm-x4p5-jf46"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@zettle-bo/settings",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40zettle-bo/settings"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/@zettle-bo/settings/MAL-2023-8209.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

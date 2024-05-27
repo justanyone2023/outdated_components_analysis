@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-1140",
+  "summary": "Malicious code in com.unity.test-runner-manual-tests (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (85698be2138d279587657502f67090097d4cbbeb4b05a492c63e318fe69f4560)\nThe OpenSSF Package Analysis project identified 'com.unity.test-runner-manual-tests' @ 2.0.0 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-05-08T10:57:14Z",
+  "published": "2023-05-08T10:57:14Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-05-08T10:57:14.875187334Z",
+        "import_time": "2023-08-10T06:15:43.881248727Z",
+        "versions": [
+          "2.0.0"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "85698be2138d279587657502f67090097d4cbbeb4b05a492c63e318fe69f4560"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "com.unity.test-runner-manual-tests",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/com.unity.test-runner-manual-tests"
+      },
+      "versions": [
+        "2.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/com.unity.test-runner-manual-tests/MAL-2023-1140.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

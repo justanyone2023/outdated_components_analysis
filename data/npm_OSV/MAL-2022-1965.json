@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2022-1965",
+  "summary": "Malicious code in codashop (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (ccc6c66181152007bc17d58537f2fffb29c29a2367e6f92f30d2844189706f32)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-chx7-vgmm-3q34"
+  ],
+  "modified": "2022-08-19T02:03:36Z",
+  "published": "2022-08-19T02:03:27Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2022-08-19T02:03:36Z",
+        "import_time": "2023-07-30T21:58:06.333636262Z",
+        "id": "GHSA-chx7-vgmm-3q34",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "ccc6c66181152007bc17d58537f2fffb29c29a2367e6f92f30d2844189706f32"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-chx7-vgmm-3q34"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "codashop",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/codashop"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/codashop/MAL-2022-1965.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-8057",
+  "summary": "Malicious code in @ks-radar/radar-error-collect (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (2a7e2199870f46f65ae301b77a8853c7c0203492bd65638277944190b9b406d0)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-vw3v-52fj-6p2g"
+  ],
+  "modified": "2023-09-06T07:45:59Z",
+  "published": "2023-09-06T07:45:59Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-09-06T07:45:59Z",
+        "import_time": "2023-09-07T00:23:11.863876502Z",
+        "id": "GHSA-vw3v-52fj-6p2g",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "2a7e2199870f46f65ae301b77a8853c7c0203492bd65638277944190b9b406d0"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-vw3v-52fj-6p2g"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@ks-radar/radar-error-collect",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40ks-radar/radar-error-collect"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/@ks-radar/radar-error-collect/MAL-2023-8057.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

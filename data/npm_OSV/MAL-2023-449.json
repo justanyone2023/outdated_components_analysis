@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2023-449",
+  "summary": "Malicious code in fluent-ui-react-latest (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (9d4f214d34026a7c88fc092754888c5c4c127f5cead75c2e93a25b2a3e3cc403)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-cp8c-mq67-24gw"
+  ],
+  "modified": "2023-03-15T02:00:38Z",
+  "published": "2023-03-15T02:00:32Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-03-15T02:00:38Z",
+        "import_time": "2023-07-30T21:58:06.596966631Z",
+        "id": "GHSA-cp8c-mq67-24gw",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "9d4f214d34026a7c88fc092754888c5c4c127f5cead75c2e93a25b2a3e3cc403"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-cp8c-mq67-24gw"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "fluent-ui-react-latest",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/fluent-ui-react-latest"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/malicious/npm/fluent-ui-react-latest/MAL-2023-449.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}
